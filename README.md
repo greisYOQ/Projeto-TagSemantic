@@ -1,2 +1,2 @@
 # portfolio
-Portifolio de diferentes projetos utilizando HTML, CSS e Javascript
+Primer trabalho utilizando HTML, CSS e Javascript
