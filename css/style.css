@@ -7,7 +7,7 @@
 }
 
 html{
-    font-size: 10px;
+    font-size: 13px;
     font-family: 'Poppins', 'Times New Roman', Times, serif ;
     scroll-behavior: smooth;
 }
@@ -44,7 +44,7 @@ p {
     color: whitesmoke;
     margin-bottom: 10px;
     margin-top: 5px;
-    text-transform: uppercase;
+    /*text-transform: uppercase;*/
     letter-spacing: 0.2rem;
     text-align: center;
 }
@@ -141,7 +141,7 @@ p {
 
 #portfolio .portfolio{
     flex-direction: column;
-    max-width: 1200px;
+    max-width: 1300px;
     margin: 0 auto;
     padding: 30px 0;
 }
@@ -213,25 +213,30 @@ p {
 }
 
 #portfolio .project-footer {
-    padding: 10px;
+    padding: 8px;
     flex-basis: 50%;
     height: 100%;
     display: flex;
-    align-items: flex-start;
-    justify-content: space-between;
+    align-items: center;
+    justify-content: center;
     flex-direction: row;
     background-color: white;
     color: black;
 }
 
-#portfolio .project-footer h2, a {
+#portfolio .project-footer a {
     font-size: 1.5rem;
     font-weight: 500;
     color: #7d27af;
-    
-
 }
 
+#portfolio .project-footer i {
+    font-size:48px;
+    padding-right: 15px;
+}
+i:hover{
+    color: gold;
+}
 
 .dot {
     cursor: pointer;
@@ -239,7 +244,7 @@ p {
     width: 30px;
     margin: 0 2px;
     background-color: transparent;
-    border: 3px solid  gold;    
+    border: 3px solid  purple;    
     border-radius: 50%;
     display: inline-block;
     transition: background-color 0.6s ease;
@@ -247,6 +252,7 @@ p {
 
   .active, .dot:hover {
     background-color: gold;
+    border: gold;
   }
   
  /* Keyframes presentation*/
@@ -278,7 +284,7 @@ p {
   
 
 /* Media Query */
-@media only screen and (min-width: 80%) {
+@media only screen and (min-width: 90%) {
     #portfolio .project-item {
         flex-direction: row;
         height: 400px;
