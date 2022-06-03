@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;1,200;1,500&display=swap');
-
 *{
     padding: 0;
     margin: 0;
@@ -148,6 +147,7 @@ p {
 #portfolio .portfolio-header h1{
     margin-bottom: 50px;
 }
+
 #portfolio .all-projects {
     display: flex;
     align-items: center;
@@ -234,6 +234,8 @@ p {
     font-size:48px;
     padding-right: 15px;
 }
+
+/* Carousel of projects*/
 i:hover{
     color: gold;
 }
